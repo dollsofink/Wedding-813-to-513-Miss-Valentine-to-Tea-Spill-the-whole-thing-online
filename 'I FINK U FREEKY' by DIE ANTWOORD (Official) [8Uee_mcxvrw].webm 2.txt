@@ -1,0 +1,46 @@
+C:\Users\Owner\videos> ffmpeg -i "'I FINK U FREEKY' by DIE ANTWOORD (Official) [8Uee_mcxvrw].webm" -ss 0:00:35 -t 0:00:53 -c:v copy -c:a copy "00;00;35-00;00;53 Pray, we get Married 2;16 (ft. Aiden V).mp4"
+ffmpeg version 2025-12-04-git-d6458f6a8b-full_build-www.gyan.dev Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 15.2.0 (Rev8, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-cairo --enable-fontconfig --enable-iconv --enable-gnutls --enable-lcms2 --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-libdvdnav --enable-libdvdread --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-liboapv --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-openal --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-liblc3 --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint --enable-whisper
+  libavutil      60. 19.101 / 60. 19.101
+  libavcodec     62. 21.100 / 62. 21.100
+  libavformat    62.  6.103 / 62.  6.103
+  libavdevice    62.  2.100 / 62.  2.100
+  libavfilter    11. 10.101 / 11. 10.101
+  libswscale      9.  3.100 /  9.  3.100
+  libswresample   6.  2.100 /  6.  2.100
+Input #0, matroska,webm, from ''I FINK U FREEKY' by DIE ANTWOORD (Official) [8Uee_mcxvrw].webm':
+  Metadata:
+    COMPATIBLE_BRANDS: iso6av01mp41
+    MAJOR_BRAND     : dash
+    MINOR_VERSION   : 0
+    ENCODER         : Lavf62.6.103
+  Duration: 00:03:54.63, start: 0.000000, bitrate: 903 kb/s
+  Stream #0:0: Video: av1 (libdav1d) (Main), yuv420p(tv, bt709), 1920x1080, SAR 1:1 DAR 16:9, 25 fps, 25 tbr, 1k tbn (default)
+    Metadata:
+      HANDLER_NAME    : ISO Media file produced by Google Inc.
+      DURATION        : 00:03:54.600000000
+  Stream #0:1(eng): Audio: opus, 48000 Hz, stereo, fltp (default)
+    Metadata:
+      DURATION        : 00:03:54.628000000
+File '00;00;35-00;00;53 Pray, we get Married 2;16 (ft. Aiden V).mp4' already exists. Overwrite? [y/N] y
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+[mp4 @ 00000221f6b4bd00] track 1: codec frame size is not set
+Output #0, mp4, to '00;00;35-00;00;53 Pray, we get Married 2;16 (ft. Aiden V).mp4':
+  Metadata:
+    COMPATIBLE_BRANDS: iso6av01mp41
+    MAJOR_BRAND     : dash
+    MINOR_VERSION   : 0
+    encoder         : Lavf62.6.103
+  Stream #0:0: Video: av1 (Main) (av01 / 0x31307661), yuv420p(tv, bt709), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 25 fps, 25 tbr, 16k tbn (default)
+    Metadata:
+      HANDLER_NAME    : ISO Media file produced by Google Inc.
+      DURATION        : 00:03:54.600000000
+  Stream #0:1(eng): Audio: opus (Opus / 0x7375704F), 48000 Hz, stereo, fltp (default)
+    Metadata:
+      DURATION        : 00:03:54.628000000
+Press [q] to stop, [?] for help
+[out#0/mp4 @ 00000221f6abe440] video:5016KiB audio:812KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.452023%
+frame= 1236 fps=0.0 q=-1.0 Lsize=    5854KiB time=00:01:28.08 bitrate= 544.5kbits/s speed= 568x elapsed=0:00:00.15
